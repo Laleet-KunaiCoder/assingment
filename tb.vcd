@@ -1,5 +1,5 @@
 $date
-	Sun Mar 12 12:31:56 2023
+	Sun Mar 12 12:49:20 2023
 $end
 $version
 	Icarus Verilog
@@ -8,18 +8,18 @@ $timescale
 	1ps
 $end
 $scope module tb $end
-$var wire 326 ! OUT [325:0] $end
-$var wire 163 " C [162:0] $end
+$var wire 163 ! C [162:0] $end
+$var wire 326 " OUT [325:0] $end
 $var reg 163 # A [162:0] $end
 $var reg 163 $ B [162:0] $end
 $scope module dut $end
 $var wire 163 % A [162:0] $end
 $var wire 163 & B [162:0] $end
-$var wire 326 ' OUT [325:0] $end
-$var wire 164 ( s_mid [163:0] $end
-$var wire 162 ) albl [161:0] $end
-$var wire 164 * ahbh [163:0] $end
-$var wire 163 + C [162:0] $end
+$var wire 163 ' C [162:0] $end
+$var wire 326 ( OUT [325:0] $end
+$var wire 164 ) s_mid [163:0] $end
+$var wire 162 * albl [161:0] $end
+$var wire 164 + ahbh [163:0] $end
 $var reg 326 , result [325:0] $end
 $scope module km1 $end
 $var wire 81 - a [80:0] $end
@@ -100901,16 +100901,16 @@ b11101011 /
 b101 .
 b110111 -
 b11101011 ,
-b11101011 +
-b0 *
+b0 +
+b11101011 *
 b11101011 )
 b11101011 (
-b11101011 '
+bz '
 b101 &
 b110111 %
 b101 $
 b110111 #
 b11101011 "
-b11101011 !
+bz !
 $end
 #100000
