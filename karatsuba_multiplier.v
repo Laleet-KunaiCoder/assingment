@@ -22,5 +22,4 @@ module karatsuba_multiplier #(parameter n=1)(
       result=^(ahbh<<2*s)^albl^((s_mid^albl^ahbh)<<s);
     end
     assign OUT=result;
-    assign C=result[n-1:0];
 endmodule
